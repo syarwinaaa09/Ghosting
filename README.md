@@ -1,46 +1,41 @@
-# Getting Started with Create React App and Redux
+# Ghosting
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+![ghosting-high-resolution-logo-transparent](https://github.com/syarwinaaa09/Ghosting/assets/114587158/dcdb9926-59e2-4921-8261-5ffd3641efda)
 
-## Available Scripts
+Welcome to Ghosting, a Snapchat clone built using React.js, featuring a camera, Redux and Firebase integration. 
 
-In the project directory, you can run:
+### Introduction
+Ghosting is a project aimed at replicating the functionality of Snapchat using React.js, Redux for state management and Firebase for real-time data syncrhonization.
+The project showcases how to integrate a camera feature, manage application state efficiently with Redux, and utilise Firebase for seamless data storage and retrieval.
 
-### `npm start`
+### Features
+* **Camera Integration:** Capture photos and videos directly within the application using the integrated camera feature.
+* **Real-time Updates:** Leverage Firebase to achieve real-time updates and synchronisation of messages across multiple devices.
+* **User Authentication:** Implement user authentication to ensure secure access to the application.
+* **Snapchat-Like Experience:** Mimic the user experience of Snapchat with disappearing messages and a user-friendly interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Technologies Used
+* **React.js:** A JavaScript library for building user interfaces, providing a robust foundation for creating a dynamic and responsive application.
+* **Redux:** A predictable state container for JavaScript applications, enabling efficient state management in large and complex applications.
+* **Firebase:** A comprehensive backend-as-a-service (BaaS) platform, used for real-time data synchronisation, authentication and storage.
+* **Other Dependencies:** Various additional libraries and tools will be used to enhance the development process. Refer to the project documentation for detailed information.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Installation
+To run Ghosting locally, follow these steps:
+1. Clone the repository: `git clone https://github.com/syarwinaaa09/ghosting.git`
+2. Navigate to the project directory: `cd ghosting`
+3. Install dependenices: `npm install`
+4. Configure Firebase: Set up a Firebase project and update the configuration details in the project.
 
-### `npm test`
+### Usage
+Once the installation is complete, you can start the development server:
+```
+npm start
+```
+Visit `http://localhost:3000` in your web browser to explore the Ghosting application. Follow the on-screen instructions to navigate and experience the Snapchat clone.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Contributing
+We welcome contributions! If you'd like to contribute to Ghosting, please follow our contribution guidelines.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### License
+Ghosting is licensed under the MIT License. Feel free to use, modify and distribute the code for your own projects.
